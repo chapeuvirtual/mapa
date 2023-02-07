@@ -1,3 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body
+{
+    background: #dbdbdb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #696969;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px #000000;
+}
+.container .left_Side
+{
+    position: relative;
+    background: #757575;
+    padding: 40px;
+}
+.profile_Text
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: #dbdbdb;
+}
+.menu
+{
+    padding: 40px;
+}
+.title
+{
+    color: #dbdbdb;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.menu ul
+{
+    position: relative;
+}
+.menu ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.menu ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #dbdbdb;
+}
+.menu ul li span
+{
+    color: #dbdbdb;
+    font-weight: 300;
+}
+.menu.artistas li
+{
+    margin-bottom: 15px;
+}
+.menu.artistas h5
+{
+    color: #dbdbdb;
+    font-weight: 500;
+}
+.menu .artistas h4
+{
+    color: #dbdbdb;
+    font-weight: 300;
+}
+
+.container .right_Side
+{
+    position: relative;
+    background: #dbdbdb;
+    padding: 40px;
+}
+/*
 *
 {
     margin: 0;
