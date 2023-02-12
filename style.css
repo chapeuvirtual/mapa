@@ -18,7 +18,7 @@ body
 {
     position: relative;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     min-height: 1000px;
     margin: 50px;
     background: #696969;
@@ -129,7 +129,7 @@ p
 .container .right_Side
 {
     position: relative;
-    background: #8f8f8f;
+    background:linear-gradient(to right, #666666, rgb(199, 199, 199));
     padding: 40px;
 }
 .sobre
@@ -161,13 +161,13 @@ iframe
 .interesse ul li
 {
     list-style: none;
-    color: #4e4f94;
+    color: #dbdbdb;
     font-weight: 800;
     margin: 10px 10px;
 }
 .interesse ul li .fa
 {
-    color: #4e4f94;
+    color: #dbdbdb;
     font-size: 20px;
     width: 20px;
     padding: 2px;
@@ -262,36 +262,18 @@ body.dark
         grid-template-columns: repeat(1,1fr);
     }
 }
-/*
-*
+@media (max-width: 240px)
 {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+    .about .box
+    {
+        flex-direction: column;
+    }
+    .about .box .year_company
+    {
+        margin-bottom: 5px;
+    }
+    .interest ul
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
-nav#menu
-{
-    display: block;
-}
-nav#menu ul
-{
-    list-style: none;
-
-}
-nav#menu li
-{
-    display: inline-block;
-}
-body
-{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #fafafa;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    transition: background 0.2s linear;
-    color: #000;
-} */
