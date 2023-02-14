@@ -21,8 +21,6 @@ body
     max-width: 1400px;
     min-height: 1000px;
     margin: 50px;
-    border-top-right-radius: 5.5%;
-    border-bottom-right-radius: 5.5%;
     background: #696969;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -136,8 +134,6 @@ p
 .container .right_Side
 {
     position: relative;
-    border-top-right-radius: 6%;
-    border-bottom-right-radius: 6%;
     background:linear-gradient(to right, #666666, rgb(199, 199, 199));
     padding: 40px;
 }
@@ -165,6 +161,7 @@ p
     margin-top: 20px;
     letter-spacing: 1px;
     margin-bottom: 30px;
+    padding: 15px;
 }
 iframe
 {
@@ -207,11 +204,7 @@ body.dark
 {
     background:linear-gradient(to right, #242323, #696969);
 }
-.dark .title
-{
-    color: #dbdbdb;
-}
-.dark .title2
+.dark .title, .dark .title2, .dark .title3
 {
     color: #dbdbdb;
 }
