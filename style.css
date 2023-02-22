@@ -63,6 +63,11 @@ a
 p
 {
     text-align: justify;
+    position: static;
+}
+img
+{
+    border-radius: 5%;
 }
 .menu
 {
@@ -162,6 +167,26 @@ p
     letter-spacing: 1px;
     margin-bottom: 30px;
     padding: 15px;
+}
+.anuncio
+{
+    position: sticky;
+    top: 20px;
+    align-content: 5px;
+    border-color: #000000;
+}
+.anuncio2
+{
+    float: left;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    border-radius: 10%;
+}
+.galeria
+{
+    margin: 0 auto;
+    /*height: 300px;
+    overflow: hidden;*/
 }
 iframe
 {
