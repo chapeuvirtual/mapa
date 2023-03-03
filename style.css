@@ -53,12 +53,8 @@ body
 a
 {
     color: #000000;
-    text-decoration: dotted;
+    text-decoration: none;
     font-weight: 800;
-}
-:link:hover
-{
-    outline: dashed #ff0000;
 }
 p
 {
@@ -91,6 +87,7 @@ img
     list-style: none;
     margin: 10px 0;
     cursor: pointer;
+    font-size: large;
 }
 .menu ul li .icon
 {
@@ -98,6 +95,7 @@ img
     width: 30px;
     font-size: 18px;
     color: #dbdbdb;
+    font-size: x-large;
 }
 .menu ul li span
 {
