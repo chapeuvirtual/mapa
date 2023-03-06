@@ -1,14 +1,16 @@
 *
 {
     margin: 0;
-    padding: 0;
+    padding: 10px 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 body
 {
     min-height: 100vh;
-    width: 100%;background-color: #fff;
+    width: 100%;
+    background-color: #fff;
+    /*background-color: #ffefd2;*/
     display: flex;
     flex-direction: column;
 }
@@ -28,9 +30,15 @@ header
 }
 header h1
 {
+    /*color: #5f4b4b;*/
     text-transform: uppercase;
-    font-size: 1.7em;
+    font-family: 'Limelight', cursive;
+    font-size: 2.2em;
     letter-spacing: 1px;
+}
+a
+{
+    text-decoration: none;
 }
 .menu
 {
@@ -49,7 +57,7 @@ header h1
 {
     display: inline-block;
     margin-left: 32px;
-    font-size: 1.1em;
+    font-size: 1.3em;
     cursor: pointer;
     transition: color 0.5s;
 }
@@ -68,6 +76,10 @@ header h1
 {
     width: 100%;
 }
+.right iframe
+{
+    border-radius: 8%;
+}
 .left
 {
     max-width: 45%;
@@ -81,13 +93,13 @@ header h1
 {
     color: #ff5360;
     font-size: 3.2em;
-    width: 50%;
     font-weight: bold;
     letter-spacing: 2px;
     margin-bottom: 48px;
 }
 .msg
 {
+    text-align: justify;
     color: #9fb5cc;
     font-size: 1.1em;
     letter-spacing: 0.7px;
@@ -114,6 +126,14 @@ button.cta:hover
 {
     opacity: 0.9;
 }
+.apoio
+{
+    float: left;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    border-radius: 10%;
+}
+/*escrever pag dos fundadores com links button pro site pessoal(portfolio), e oferecer o mesmo pra empresas.*/
 
 @media (max-width:800px)
 {
@@ -156,6 +176,10 @@ button.cta:hover
     .right img
     {
         width: 80%;
+    }
+    .right iframe
+    {
+        width: 85%;
     }
     .menu button 
     {
@@ -215,5 +239,9 @@ button.cta:hover
     .menu.opened button
     {
         color: #fff;
+    }
+    .msg
+    {
+        text-align: justify;
     }
 }
