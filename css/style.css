@@ -72,9 +72,17 @@ a
     display: flex;
     align-items: center;
 }
+.right .container-imagens
+{
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
 .right img
 {
-    width: 100%;
+    width: 70%;
+    border-radius: 5%;
 }
 .imgB
 {
@@ -219,9 +227,9 @@ button.cta:hover
         width: 45%;
         border-radius: 55%;
     }
-    .right img
+    .right .container-imagens, .right img
     {
-        width: 80%;
+        width: 100%;
     }
     .right iframe
     {
