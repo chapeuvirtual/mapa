@@ -84,16 +84,6 @@ a
     width: 70%;
     border-radius: 5%;
 }
-.imgB
-{
-    position: relative;
-    float: left;
-    margin: 15px;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-}
 .galeria
 {
     display: flex;
@@ -137,6 +127,16 @@ iframe
 {
     padding: 40px 48px;
 }
+.imgB
+{
+    position: static;
+    float: left;
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
 .title
 {
     color: #ff5360;
@@ -144,6 +144,14 @@ iframe
     font-weight: bold;
     letter-spacing: 2px;
     margin-bottom: 48px;
+}
+.titleart
+{
+    color: #ff5360;
+    font-size: 1.7em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
 }
 .msg
 {
@@ -154,8 +162,18 @@ iframe
     line-height: 32px;
     margin-bottom: 48px;
 }
+.msgart
+{
+    text-align: justify;
+    color: #9fb5cc;
+    font-size: 1em;
+    letter-spacing: 0.35px;
+    line-height: 16px;
+    margin-bottom: 24px;
+}
 button.cta
 {
+    display: flexbox;
     border: none;
     outline: none;
     background-color: #711def;
@@ -181,6 +199,66 @@ button.cta:hover
     padding: 5px;
     margin: 0px 10px 10px 0;
     border-radius: 10%;
+}
+.footer
+{
+    padding: 30px 0;
+    background-color: #9fb5cc;
+}
+.social
+{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #711def;
+}
+.social a
+{
+    font-size: 36px;
+    color: inherit;
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.social a:hover
+{
+    opacity: 1;
+}
+.footer ul
+{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a
+{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.5;
+}
+.footer ul li
+{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover
+{
+    opacity: 1;
+}
+.footer .copyright
+{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
 }
 /*escrever pag dos fundadores com links button pro site pessoal(portfolio), e oferecer o mesmo pra empresas.*/
 
