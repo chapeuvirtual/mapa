@@ -260,7 +260,6 @@ button.cta:hover
     color: #aaa;
 }
 /*escrever pag dos fundadores com links button pro site pessoal(portfolio), e oferecer o mesmo pra empresas.*/
-
 @media (max-width:800px)
 {
     header, .left, .right
@@ -362,14 +361,14 @@ button.cta:hover
         padding: 46px;
         flex-direction: column;
         align-items: flex-end;
-        padding-top: 80px;
+        padding-top: 50px;
         transform: translateX(100%);
         transition: 0.5s;
     }
     .menu-list li
     {
         font-size: 1.7em;
-        margin: 32px 0px;
+        margin: 12px 0px;
     }
     .menu.opened .menu-list
     {
