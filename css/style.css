@@ -139,7 +139,7 @@ iframe
 .title
 {
     color: #ff5360;
-    font-size: 3.2em;
+    font-size: 2.5em;
     font-weight: bold;
     letter-spacing: 2px;
     margin-bottom: 48px;
@@ -258,6 +258,19 @@ button.cta:hover
     text-align: center;
     font-size: 13px;
     color: #aaa;
+}
+.pix
+{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pix p
+{
+    font-size: 1.6em;
+    color: #aaa;
+    text-align: center;
 }
 /*escrever pag dos fundadores com links button pro site pessoal(portfolio), e oferecer o mesmo pra empresas.*/
 @media (max-width:800px)
