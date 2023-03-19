@@ -133,7 +133,7 @@ iframe
     margin: 15px;
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 45%;
     overflow: hidden;
 }
 .title
@@ -312,7 +312,8 @@ button.cta:hover
     .imgB
     {
         width: 45%;
-        border-radius: 55%;
+        clip-path: none;
+        border-radius: 35%;
     }
     .right .container-imagens, .right img
     {
