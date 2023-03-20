@@ -75,12 +75,12 @@ a
 .right .container-imagens
 {
     display: flex;
-    width: 1000px;
+    width: 800px;
     justify-content: center;
 }
 .right img
 {
-    width: 70%;
+    width: 80%;
     border-radius: 5%;
 }
 .galeria
@@ -119,11 +119,14 @@ iframe
 }
 .left
 {
-    max-width: 45%;
+    width: 50%;
+    max-width: 50%;
     padding: 40px 64px;
 }
 .right
 {
+    width: 50%;
+    max-width: 50%;
     padding: 40px 48px;
 }
 .imgB
@@ -195,8 +198,8 @@ button.cta:hover
 .apoio
 {
     float: left;
-    padding: 5px;
-    margin: 0px 10px 10px 0;
+    padding: 15px;
+    margin: 5px;
     border-radius: 10%;
 }
 .footer
