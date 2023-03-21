@@ -198,11 +198,12 @@ button.cta:hover
 .leftjaba
 {
     width: 65%;
-    display: flexbox;
-    columns: 2;
+    display: flex;
+    flex-wrap: wrap;
 }
 .jaba
 {
+    flex-basis: 45%;
     width: 600px;
     height: 310px;
     overflow: auto;
@@ -286,22 +287,30 @@ button.cta:hover
     text-align: center;
 }
 /*escrever pag dos fundadores com links button pro site pessoal(portfolio), e oferecer o mesmo pra empresas.*/
-@media (max-width:800px)
+@media (max-width:1600px)
 {
-    header, .left, .right
+    header, .left, .right, .leftjaba
     {
         padding-left: 40px;
         padding-right: 40px;
     }
+    .jaba
+    {
+        width: 70%;
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-@media (max-width:650px)
+@media (max-width:950px)
 {
     .main
     {
         flex-direction: column;
     }
-    .left, .right
+    .left, .right, .leftjaba
     {
         width: 100%;
         max-width: 100%;
@@ -319,6 +328,12 @@ button.cta:hover
         width: 95%;
         margin-bottom: 32px;
         text-align: center;
+    }
+    .jaba
+    {
+        width: fit-content;
+        flex-basis: 100%;
+        font-size: 0.8em;
     }
     button.cta
     {
