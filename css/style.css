@@ -1,11 +1,9 @@
-*
-{
+*{
     margin: 0;
     padding: 10px 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-}
-body
+}body
 {
     min-height: 100vh;
     width: 100%;
@@ -13,8 +11,7 @@ body
     /*background-color: #ffefd2;*/
     display: flex;
     flex-direction: column;
-}
-header
+}header
 {
     color: #711def;
     position: fixed;
@@ -25,36 +22,30 @@ header
     justify-content: space-between;
     align-items: center;
     padding: 0 64px;
+    margin-left: 40px;
     font-size: 16px;
     position: relative;
-}
-header h1
+}header h1
 {
-    /*color: #5f4b4b;*/
     text-transform: uppercase;
     font-family: 'Limelight', cursive;
     font-size: 2.2em;
     letter-spacing: 1px;
 }
-a
-{
+a{
     text-decoration: none;
 }
-.menu
-{
+.menu{
     display: flex;
 }
-.menu button
-{
+.menu button{
     display: none;
 }
-.menu-list
-{
+.menu-list{
     list-style: none;
     display: flex;
 }
-.menu-list li
-{
+.menu-list li{
     display: inline-block;
     margin-left: 32px;
     font-size: 1.3em;
@@ -66,37 +57,31 @@ a
 {
     color: #ff5360;
 }
-.main
-{
+.main{
     flex: 1;
     display: flex;
     align-items: center;
 }
-.right .container-imagens
-{
+.right .container-imagens{
     display: flex;
     width: 800px;
     justify-content: center;
 }
-.right img
-{
+.right img{
     width: 80%;
     border-radius: 5%;
 }
-.galeria
-{
+.galeria{
     display: flex;
     max-width: 900px;
     margin: 0 auto;
 }
-.box
-{
+.box{
     display: flex;
     flex: 1;
     transition: 0.5s;
 }
-.box img
-{
+.box img{
     transition: 0.5s;
     width: 100%;
     height: 500px;
@@ -104,33 +89,29 @@ a
     object-fit: cover;
     filter: grayscale(1);
 }
-.box:hover
-{
+.box:hover{
     flex: 3;
 }
-.box:hover img
-{
+.box:hover img{
     filter: grayscale(0);
     width: 400px;
 }
-iframe
-{
+iframe{
     border-radius: 8%;
 }
-.left
-{
+.left{
     width: 50%;
     max-width: 50%;
-    padding: 40px 64px;
+    margin-left: 40px;
+    padding: 40px 4px;
 }
-.right
-{
+.right{
     width: 50%;
     max-width: 50%;
+    margin-right: 40px;
     padding: 40px 48px;
 }
-.imgB
-{
+.imgB{
     position: static;
     float: left;
     margin: 15px;
@@ -139,24 +120,21 @@ iframe
     border-radius: 45%;
     overflow: hidden;
 }
-.title
-{
+.title{
     color: #ff5360;
     font-size: 2.5em;
     font-weight: bold;
     letter-spacing: 2px;
     margin-bottom: 48px;
 }
-.titleart
-{
+.titleart{
     color: #ff5360;
     font-size: 1.7em;
     font-weight: bold;
     letter-spacing: 1px;
     margin-bottom: 5px;
 }
-.msg
-{
+.msg{
     text-align: justify;
     color: #9fb5cc;
     font-size: 1.1em;
@@ -164,8 +142,7 @@ iframe
     line-height: 32px;
     margin-bottom: 48px;
 }
-.msgart
-{
+.msgart{
     text-align: justify;
     color: #9fb5cc;
     font-size: 1em;
@@ -173,8 +150,7 @@ iframe
     line-height: 16px;
     margin-bottom: 24px;
 }
-button.cta
-{
+button.cta{
     display: flexbox;
     border: none;
     outline: none;
@@ -191,18 +167,15 @@ button.cta
     cursor: pointer;
     transition: opacity 0.9;
 }
-button.cta:hover
-{
+button.cta:hover{
     opacity: 0.9;
 }
-.leftjaba
-{
+.leftjaba{
     width: 65%;
     display: flex;
     flex-wrap: wrap;
 }
-.jaba
-{
+.jaba{
     flex-basis: 45%;
     width: 600px;
     height: 310px;
@@ -210,24 +183,20 @@ button.cta:hover
     margin: 25px;
     padding: 15px;
 }
-.apoio
-{
+.apoio{
     float: left;
     margin: 10px;
 }
-.footer
-{
+.footer{
     padding: 30px 0;
     background-color: #9fb5cc;
 }
-.social
-{
+.social{
     text-align: center;
     padding-bottom: 25px;
     color: #711def;
 }
-.social a
-{
+.social a{
     font-size: 36px;
     color: inherit;
     width: 50px;
@@ -237,12 +206,10 @@ button.cta:hover
     margin: 0 8px;
     opacity: 0.75;
 }
-.social a:hover
-{
+.social a:hover{
     opacity: 1;
 }
-.footer ul
-{
+.footer ul{
     margin-top: 0;
     padding: 0;
     list-style: none;
@@ -251,43 +218,37 @@ button.cta:hover
     margin-bottom: 0;
     text-align: center;
 }
-.footer ul li a
-{
+.footer ul li a{
     color: inherit;
     text-decoration: none;
     opacity: 0.5;
 }
-.footer ul li
-{
+.footer ul li{
     display: inline-block;
     padding: 0 15px;
 }
-.footer ul li a:hover
-{
+.footer ul li a:hover{
     opacity: 1;
 }
-.footer .copyright
-{
+.footer .copyright{
     margin-top: 15px;
     text-align: center;
     font-size: 13px;
     color: #aaa;
 }
-.pix
-{
+.pix{
     height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.pix p
-{
+.pix p{
     font-size: 1.6em;
     color: #aaa;
     text-align: center;
 }
 /*escrever pag dos fundadores com links button pro site pessoal(portfolio), e oferecer o mesmo pra empresas.*/
-@media (max-width:1600px)
+@media (max-width:930px)
 {
     header, .left, .right, .leftjaba
     {
@@ -318,7 +279,7 @@ button.cta:hover
     }
 }
 
-@media (max-width:1140px)
+@media (max-width:768px)
 {
     .main
     {
